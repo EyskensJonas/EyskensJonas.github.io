@@ -1,33 +1,219 @@
+/*
+    Black:  #101820
+    Yellow: #FEE715
+*/
+
+/* -- Html -- */
+
+html{
+    font-family: Poppins, 'sans-serif';
+    background-color: #FEE715;
+}
 body{
-    font-family: Lato;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#overons{
-color: #654321;
+
+/* -- Kaart -- */
+
+main{
+    width: 450px;
+    height: 600px;
+    perspective: 600px;
 }
-#ionic{
-    background-color: #EFEFEF;
-}
-#diensten i{
-    font-size: 2em;
-}
-#parallax{
-    background-image: url(../img/bg_para.jpg);
-    height: 300px;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-#blauweBalk{
-    font-weight: bold;
-}
-iframe{
+.kaart{
     width: 100%;
-    height: 350px;
+    height: 100%;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
 }
-#footer i{
-    font-size: 2em;
+.style{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
 }
-.navigatie{
+.omdraaien{
+    transform: rotateY(180deg);
+}
+
+/* -- Voorkant -- */
+
+.voorkant{
+    width: 100%;
+    background-color: #101820;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0.75em black;
+    border-radius: 20px;
+}
+.voorkant img{
+    width: 28%;
+    border-radius: 50%;
+    border: 3px solid #FEE715;
+    padding: 3px;
+}
+.voorkant h1{
+    color: #FEE715;
+    font-weight: bold;
+    font-size: 2em;
+}
+.voorkant h2{
+    font-variant: small-caps;
+    font-size: 1.1em;
+    color: white;
+    margin-top: 7px;
+}
+.voorkant #text{
+    font-size: 0.9em;
+    width: 80%;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.voorkant button{
+    width: 150px;
+    height: 40px;
+    background-color: #FEE715;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+.voorkant button:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+.voorkant #header{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.skill{
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill span{
+    color: #FEE715;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 0.6em;
+}
+#locatie{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-variant: small-caps;
+}
+#locatie i{
+    color: #FEE715;
+    margin-right: 5px;
+}
+
+/* -- Social -- */
+
+#social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#social a{
+    font-size: 1.2em;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #FEE715;
+    color: black;
+}
+#social a:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+/* -- Achterkant -- */
+
+.achterkant{
+    width: 100%;
+    background-color: #101820;
+    transform: rotateY(180deg);
+    box-shadow: 0 0 0.75em black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.achterkant #draaien{
+    color: #FEE715;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+/* -- Contact -- */
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-top: 50px;
+}
+form h1{
+    color: white;
+    font-size: 2em;
+    border-bottom: 1px solid #FEE715;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+form h2{
+    color: white;
+    text-align: left;
+    align-self: flex-start;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+form span{
+    color: #FEE715;
+    margin-left: 5px;
+}
+input[type=text]{
+    width: 100%;
+    border: none;
+    background-color: #FEE715;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    font-size: 1.2em;
+}
+input[type=submit]{
+    width: 50%;
+    height: 40px;
+    background-color: #FEE715;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 1em;
+}
+input[type=submit]:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
 }
