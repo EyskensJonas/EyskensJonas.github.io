@@ -1,204 +1,61 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
     <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" >
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Les 9 - Oefening 5</title>
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <!-- Google Font Lato -->
-        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-        <!-- Font Awesome -->
-        <script src="https://kit.fontawesome.com/20fbb8ee1e.js" crossorigin="anonymous"></script>
-        <!-- Stylesheet -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Jonas Eyskens">
+        <title>Jonas Eyskens</title>
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
-
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/20fbb8ee1e.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <!-- Navigatie -->
-
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark w-100 sticky-top">
-            <div class="navbar-toggle-left d-flex w-100 align-items-center">
-                <button class="navbar-toggler d-block d-sm-block d-md-none" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a href="" class="navbar-brand ml-auto">
-                    <i class="fab fa-bootstrap"></i>
-                    <span class="">Bedrijf</span>
-                </a>
-                <div class="collapse navbar-collapse" id="navbar">
-                    <nav class="nav d-flex flex-column flex-md-row w-100 justify-content-end">
-                        <a href="#overons" class="flex-fill text-center text-light nav-link">Over Ons</a>
-                        <a href="#diensten" class="flex-fill text-center text-light nav-link">Diensten</a>
-                        <a href="#ionic" class="flex-fill text-center text-light nav-link">Ionic</a>
-                        <a href="#footer" class="flex-fill text-center text-light nav-link">Contact</a>
-                    </nav>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Carousel -->
-
-        <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-block" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Programming</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <main>
+            <div class="kaart">
+                <div class="style voorkant">
+                    <img src="img/avatar.jpg" alt="avatar">
+                    <div id="header">
+                        <h1>Jonas Eyskens</h1>
+                        <h2>frontend developer</h2>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>App Development</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div id="social">         
+                        <a href="https://www.linkedin.com/in/jonas-eyskens/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/EyskensJonas" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/jonas.eyskens.92" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.behance.net/eyskensjon6de5" target="_blank"><i class="fab fa-behance"></i></a>
+                        <a href="https://www.instagram.com/jonaseyskens/" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/carousel3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Games</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-
-        <!-- Over Ons -->
-
-        <section id="overons" class="p-5">
-            <h1><i class="fab fa-bootstrap"></i> Bedrijf</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolores ab sint dolorem hic officiis, consequatur, delectus id est qui blanditiis, porro recusandae aut numquam nemo velit temporibus alias inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor aut natus quod quia labore, sint quibusdam a pariatur aliquam ab porro excepturi dignissimos ducimus dolore explicabo tempore incidunt sit perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloribus quod atque laudantium placeat omnis suscipit porro. Temporibus fuga eum accusantium, repudiandae quas nisi tempora optio, doloremque rem distinctio consequuntur.</p >
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, nisi sunt? Quis excepturi inventore mollitia quia cupiditate nemo? Iste voluptas atque ullam facilis, cumque odit maxime explicabo deserunt blanditiis enim.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum sint accusamus nobis, nihil distinctio aliquid esse. Consequuntur, maxime possimus! Magni, vitae cum debitis corporis fugiat nemo tempora facilis est.</p>
-        </section>
-
-        <!-- Ionic -->
-
-        <section id="ionic" class="d-flex pt-4 pl-3 pr-3 align-items-center">
-            <div class="col">
-                <p>Ionic Framework</p>
-                <h2>Open Source en Hybride technologie.<br>Sneller ontwikkelen.<br>Alle platformen.</h2>
-                <p class="lead">Wij ontwikkelen sneller met slechts één codebase voor iOS, Android en Desktop. Wij maken kwalitatieve en mooie applicaties met het open source framework Ionic.</p>
-                <p class="lead">Dankzij Ionic werken wij efficiënter en is uw app meteen klaar voor alle platformen. Ontdek de voordelen en laat inspireren!</p>
-                <button type="button" class="btn btn-primary mb-5 mb-sm-0">Ontdek het Ionic Framework</button>
-            </div>
-            <img src="img/phone_ionic.png" class="d-none d-sm-none d-md-block">
-        </section>
-
-        <!-- Diensten -->
-
-        <section id="diensten" class="p-5">
-            <div class="containter">
-                <div class="row">
-                    <div class="card w-100 col-sm-4 border-0 text-center">
-                        <i class="fas fa-id-card"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Ontwerp</h5>
-                            <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quam veniam temporibus cupiditate? Deleniti sunt, sapiente voluptas distinctio dolores sint quis modi delectus temporibus velit quo dicta, repellat voluptatem. Vero?</p>
-                            <a href="#" class="btn btn-outline-primary border-0">Meer...</a>
+                    <div id="text">
+                        <div id="locatie">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>putte, belgium</p>
                         </div>
+                        <p class="skill">HTML<span>//</span>CSS<span>//</span>JAVASCRIPT<span>//</span>ANGULAR</p>
                     </div>
-                    <div class="card w-100 col-sm-4 border-0 text-center">
-                        <i class="fas fa-cogs"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Ontwikkeling</h5>
-                            <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quam veniam temporibus cupiditate? Deleniti sunt, sapiente voluptas distinctio dolores sint quis modi delectus temporibus velit quo dicta, repellat voluptatem. Vero?</p>
-                            <a href="#" class="btn btn-outline-primary border-0">Meer...</a>
-                        </div>
-                    </div>
-                    <div class="card w-100 col-sm-4 border-0 text-center">
-                        <i class="fas fa-chart-bar"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Marketing</h5>
-                            <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quam veniam temporibus cupiditate? Deleniti sunt, sapiente voluptas distinctio dolores sint quis modi delectus temporibus velit quo dicta, repellat voluptatem. Vero?</p>
-                            <a href="#" class="btn btn-outline-primary border-0">Meer...</a>
-                        </div>
+                    <button onclick="omdraaien()">Contact Me!</button>
+                </div>
+                <div class="style achterkant">
+                    <form autocomplete="off">
+                        <h1>Contact Me!</h1>
+                        <h2>name<span>:</span></h2>
+                        <input type="text" name="naam" id="naam">
+                        <h2>email<span>:</span></h2>
+                        <input type="text" name="email" id="email">
+                        <h2>message<span>:</span></h2>
+                        <input type="text" name="message" id="message">
+                        <input type="submit" class="button" value="send">
+                    </form>
+                    <div id="draaien" onclick="omdraaien()">
+                        <i class="fas fa-sync-alt"></i>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- Parallax -->
-
-        <section id="parallax"></section>
-
-        <!-- Blauwe Balk -->
-
-        <section id="blauweBalk" class="bg-primary text-light p-2 pt-4 text-center">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-        </section>
-
-        <!-- Open Street Map -->
-
-        <section id="openStreetMap">
-            <div class="container-fluid">
-                <div class="row">
-                    <iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=vdab%20haasrode+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/coordinates.html">find my coordinates</a></iframe>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-
-        <section id="footer" class="bg-dark p-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <h4 class="text-muted">Navigatie</h4>
-                        <div class="navigatie ml-3">
-                            <a href="#overons" class="text-light mt-2">Over ons</a>
-                            <a href="#diensten" class="text-light mt-3">Diensten</a>
-                            <a href="#ionic" class="text-light mt-3">Ionic</a>
-                            <a href="#contact" class="text-light mt-3">Contact</a>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm">
-                                <h4 class="text-muted">Volg ons</h4>
-                                <i class="fab fa-linkedin text-light"></i>
-                                <i class="fab fa-facebook-square text-light ml-3 mt-1"></i>
-                                <div class="row">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 text-muted mt-4 mt-sm-0">
-                        <h4>Contacteer ons</h4>
-                        <h5 class="font-weight-bold">Bedrijf</h5>
-                        <p class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p>Interleuvenlaan<br>3001 Heverlee<br>Belgie</p>
-                    </div>
-                    <div class="col-sm-6 p-3">
-                        <form>
-                            <input type="text" class="form-control" placeholder="Naam">
-                            <input type="email" class="form-control mt-3 mb-3" placeholder="Email">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            <button type="submit" class="btn btn-primary mt-3">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Script -->
-
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        </main>
     </body>
+    <script>
+        var kaart = document.querySelector('.kaart');
+        function omdraaien(){
+            kaart.classList.toggle('omdraaien');
+        }; 
+    </script>
 </html>
