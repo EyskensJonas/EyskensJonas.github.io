@@ -13,3 +13,32 @@ var countdown = setInterval(function(){
         document.getElementById('countdownClock').innerHTML = "EXPIRED";
     }
 }, 1000);
+// projecten
+function projecten(project){
+    switch (project) {
+        case 'programmeerlogica':
+            document.getElementById('programmeerlogica').style.display='flex';
+            document.getElementById('frontendcoding').style.display='none';
+            document.getElementById('frontendscripting').style.display='none';
+            document.getElementById('databankensql').style.display='none';
+            break;
+        case 'frontendcoding':
+            document.getElementById('programmeerlogica').style.display='none';
+            document.getElementById('frontendcoding').style.display='flex';
+            document.getElementById('frontendscripting').style.display='none';
+            document.getElementById('databankensql').style.display='none';
+            break;
+        case 'frontendscripting':
+            document.getElementById('programmeerlogica').style.display='none';
+            document.getElementById('frontendcoding').style.display='none';
+            document.getElementById('frontendscripting').style.display='flex';
+            document.getElementById('databankensql').style.display='none';
+            break;
+        case 'databankensql':
+            document.getElementById('programmeerlogica').style.display='none';
+            document.getElementById('frontendcoding').style.display='none';
+            document.getElementById('frontendscripting').style.display='none';
+            document.getElementById('databankensql').style.display='flex';
+            break;
+    }
+}
