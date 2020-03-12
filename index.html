@@ -16,7 +16,7 @@
     </head>
     <body>
         <!-- navigatie-->
-        <section id="navigatie" class="bg-light fixed-top">
+        <section id="navigatie" class="fixed-top">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a href="#" class="navbar-brand"><i class="fas fa-laptop-code mr-2"></i>jobdag</a>
@@ -34,8 +34,11 @@
                             <li class="nav-item">
                                 <a href="#projecten" class="nav-link">Projecten</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item teamScrollOne">
                                 <a href="#team" class="nav-link">Het Team</a>
+                            </li>
+                            <li class="nav-item teamScrollTwo">
+                                <a href="#teammobile" class="nav-link">Het Team</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#contact" class="nav-link">Contact</a>
@@ -47,12 +50,8 @@
         </section>
         <!-- header -->
         <section id="header">
-
-        </section>
-        <!-- countdown -->
-        <section id="countdown">
             <div class="container">
-                <div id="countdownContent">
+                <div class="col">
                     <h3>countdown</h3>
                     <div id="countdownClock"></div>
                 </div>
@@ -80,29 +79,119 @@
                         </ul>
                     </div>
                     <div id="programmeerlogica">
-                        <p>programmeerlogica</p>
-                        <p>comming soon!</p>
+                        <div class="row hoofdstuk">
+                            <div class="col-6 links">demo img</div>
+                            <div class="col-md-6 rechts">
+                                <h1>programmeerlogica</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quas dolore nobis, libero hic aut tempora error deserunt saepe iste, ipsam, mollitia odit! Officiis tempora fuga possimus harum! Repellendus, suscipit.</p>
+                                <button>live demo</button>
+                            </div>
+                        </div>
                     </div>
                     <div id="frontendcoding">
-                        <p>frontend coding</p>
-                        <p>comming soon!</p>
+                        <div class="row hoofdstuk">
+                            <div class="col-6 links">demo img</div>
+                            <div class="col-md-6 rechts">
+                                <h1>frontend coding</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quas dolore nobis, libero hic aut tempora error deserunt saepe iste, ipsam, mollitia odit! Officiis tempora fuga possimus harum! Repellendus, suscipit.</p>
+                                <button>live demo</button>
+                            </div>
+                        </div>
                     </div>
                     <div id="frontendscripting">
-                        <p>frontend scripting</p>
-                        <p>comming soon!</p>
+                        <div class="row hoofdstuk">
+                            <div class="col-6 links">demo img</div>
+                            <div class="col-md-6 rechts">
+                                <h1>frontend scripting</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quas dolore nobis, libero hic aut tempora error deserunt saepe iste, ipsam, mollitia odit! Officiis tempora fuga possimus harum! Repellendus, suscipit.</p>
+                                <button>live demo</button>
+                            </div>
+                        </div>
                     </div>
                     <div id="databankensql">
-                        <p>databanken sql</p>
-                        <p>comming soon!</p>
+                        <div class="row hoofdstuk">
+                            <div class="col-6 links">demo img</div>
+                            <div class="col-md-6 rechts">
+                                <h1>databanken sql</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quas dolore nobis, libero hic aut tempora error deserunt saepe iste, ipsam, mollitia odit! Officiis tempora fuga possimus harum! Repellendus, suscipit.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- team -->
-        <section id="team">
+        <section id="team" class="teamScroll">
             <div class="container">
                 <div class="col">
-                    <h3>het team</h3>
+                    <h3>team</h3>
+                </div>
+            </div>
+        </section>
+        <!-- team mobile -->
+        <section id="teammobile" class="teamScroll">
+            <div class="container-fluid">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>jonas eyskens</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>robin vanlandeghem</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>dirk francis</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>ceddy vandyck</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>jef van den dorpe</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>kevin deconinck</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>jelle miler</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>sammy maerevoet</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
