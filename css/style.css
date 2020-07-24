@@ -220,4 +220,100 @@ body #challenge .container .row .col .high {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 600px) {
+  body #nav .active a {
+    border: none;
+    padding-bottom: 8px;
+  }
+  body #header .container .row .col h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+  body #header .container .row .col p {
+    font-size: 1em;
+    width: 90%;
+  }
+  body #ads .container {
+    width: 90%;
+  }
+  body #ads .container .row .col h1 {
+    margin-top: 85px;
+    margin-bottom: 10px;
+  }
+  body #headerp .container-fluid .row #left h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  body #headerp .container-fluid .row #left p {
+    font-size: 0.9em;
+  }
+  body #headerp .container-fluid .row #left .content {
+    width: 90%;
+  }
+  body #headerp .container-fluid .row #left .content #arrow {
+    margin-top: 25px;
+  }
+  body #producten .container .row {
+    display: flex;
+    justify-content: center;
+  }
+  body #producten .container .row .col h1 {
+    font-size: 1.7em;
+    margin-top: 85px;
+    margin-bottom: 0px;
+  }
+  body #producten .container .row .product {
+    width: 90%;
+    margin-bottom: 25px;
+  }
+  body #producten .container .row .product h2 {
+    margin-bottom: 5px;
+  }
+  body #meer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  body #meer .container-fluid .row {
+    background-color: #cf6a87;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  body #meer .container-fluid .row .l {
+    padding: 0;
+    width: 90%;
+  }
+  body #meer .container-fluid .row .l h2 {
+    font-size: 2em;
+  }
+  body #meer .container-fluid .row .l p {
+    font-size: 0.8em;
+  }
+  body #headerq .container .row .col img {
+    width: 100%;
+  }
+  body #challenge .container {
+    width: 90%;
+  }
+  body #challenge .container .row .col h1 {
+    font-size: 1.9em;
+    margin-bottom: 25px;
+  }
+  body #challenge .container .row .col h2 {
+    font-size: 1.2em;
+  }
+  body #challenge .container .row .col h3 {
+    font-size: 1.8em;
+    margin-top: 35px;
+  }
+  body #challenge .container .row .col p {
+    font-size: 0.9em;
+  }
+  body #challenge .container .row .col a {
+    font-size: 0.9em;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
