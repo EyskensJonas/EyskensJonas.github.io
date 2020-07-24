@@ -1,0 +1,223 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato";
+}
+body #nav {
+  background-color: #ffffff;
+}
+body #nav .active a {
+  padding-bottom: 1px;
+  border-bottom: 2px solid #cf6a87;
+}
+body #header {
+  background-color: #cf6a87;
+  height: calc(100vh - 56px);
+  margin-top: 56px;
+  color: #ffffff;
+}
+body #header .container {
+  height: 100%;
+}
+body #header .container .row {
+  height: 100%;
+}
+body #header .container .row .col {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #header .container .row .col h1 {
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 25px;
+}
+body #header .container .row .col p {
+  font-size: 1.2em;
+  width: 75%;
+}
+body #header .container .row .col a {
+  color: #ffffff;
+  font-size: 2.3em;
+}
+body #header .container .row .col a:hover {
+  transform: scale(1.3);
+  transition: all 0.2s;
+}
+body #ads {
+  margin-bottom: 50px;
+}
+body #ads .container {
+  width: 60%;
+}
+body #ads .container .row .col h1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+body #ads .container .row .col h2 {
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-top: 25px;
+}
+body #ads .container .row .col .bolt {
+  font-weight: bold;
+}
+body #ads .container .row .col a {
+  color: #cf6a87;
+  font-weight: bold;
+  text-decoration: underline;
+}
+body #headerp {
+  background-color: #cf6a87;
+  height: calc(100vh - 56px);
+  margin-top: 56px;
+}
+body #headerp .container-fluid {
+  height: 100%;
+}
+body #headerp .container-fluid .row {
+  height: 100%;
+}
+body #headerp .container-fluid .row #left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+body #headerp .container-fluid .row #left h1 {
+  font-weight: bold;
+  margin-bottom: 25px;
+  font-size: 3em;
+}
+body #headerp .container-fluid .row #left p {
+  font-size: 1.2em;
+}
+body #headerp .container-fluid .row #left .content {
+  width: 80%;
+}
+body #headerp .container-fluid .row #left .content #arrow {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+body #headerp .container-fluid .row #left .content #arrow a {
+  color: #ffffff;
+  font-size: 2em;
+}
+body #headerp .container-fluid .row #left .content #arrow a:hover {
+  transform: scale(1.3);
+  transition: all 0.2s;
+}
+body #headerp .container-fluid .row #right {
+  background-color: #ffffff;
+}
+body #producten .container .row .col h1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+body #producten .container .row .product h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+body #producten .container .row .product img {
+  width: 100%;
+}
+body #meer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+body #meer .container-fluid .row .l {
+  background-color: #cf6a87;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: #ffffff;
+}
+body #meer .container-fluid .row .l h2 {
+  font-weight: bold;
+}
+body #meer .container-fluid .row .r {
+  background-image: url(../img/producten_side.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body #headerq {
+  background-color: #cf6a87;
+  height: calc(100vh - 56px);
+  margin-top: 56px;
+}
+body #headerq .container {
+  height: 100%;
+}
+body #headerq .container .row {
+  height: 100%;
+}
+body #headerq .container .row .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body #headerq .container .row .col img {
+  width: 75%;
+  margin-top: 50px;
+}
+body #headerq .container .row .col a {
+  color: #ffffff;
+  font-size: 2em;
+  margin-top: 50px;
+}
+body #headerq .container .row .col a:hover {
+  transform: scale(1.3);
+  transition: all 0.2s;
+}
+body #challenge {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+body #challenge .container {
+  width: 60%;
+}
+body #challenge .container .row .col h1 {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+body #challenge .container .row .col h2 {
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-top: 25px;
+}
+body #challenge .container .row .col h3 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2.4em;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #cf6a87;
+}
+body #challenge .container .row .col .bolt {
+  font-weight: bold;
+}
+body #challenge .container .row .col a {
+  color: #cf6a87;
+  font-weight: bold;
+  text-decoration: underline;
+}
+body #challenge .container .row .col .high {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
